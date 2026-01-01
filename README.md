@@ -1,3 +1,147 @@
-theme: jekyll-theme-minimal
-title: Octocat's homepage
-description: Bookmark this to keep an eye on my project updates!
+!<!DOCTYPE html>
+<html>
+    <head>
+        <title>index.html</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="style.css">
+        <style>
+    .a,.b,.c,.d,.e,.g,.f,.h,.i{
+        text-decoration: none;
+        color: black;
+        font-style: italic;
+        font-weight: 500;
+    }
+    .b2,.f2{
+        text-indent: 10px;
+    }
+    .c2,.d2,.e2,.g2,.h2,.i2{
+        text-indent: 40px;
+    }
+    #h11{
+        text-align: center;
+        text-decoration: underline;
+        font-style: italic;
+        color: crimson;
+    }
+    #in,#li1,#li11,#li12,#li13,#li2,#li21,#li22,#li23{
+        font-style: italic;
+        text-decoration: underline;
+    }
+    #div0,#div1,#div2,#div3,#div4{
+        text-indent: 50px;
+        font-style: italic;
+    }
+    a{
+        color: red;
+        text-decoration: none;
+    }
+    #divti{
+        width: 25cm;
+        height: 15cm;
+        background-image: url(data:image/jpeg;base64,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) 
+    }
+    #img1{
+       position: absolute;
+       top: 0;
+       right: 0;
+    }
+    #img2{
+        height: 10cm;
+        position: absolute;
+        bottom: 0;
+        border: 5px solid white;
+    }
+    #h12{
+        font-style: italic;
+    }
+        </style>
+    </head>
+    <body>
+        <div id="divti">
+            <img id="img1" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQe5JPVRM7xIDZdOarCEtNLkpgU_qQwfhrQDg&s" alt="">
+            <img id="img2" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5EuP6XtAfSZ9fXtcKLGUSXTe3e-foxqRHtg&s" alt="">
+            <h1 id="h12">Vous connaîtrez<br>la vérité,et la vérité<br>vous affranchira. <hr>Jean 8 verset 32</h1>
+        </div>
+        <hr>
+        <h1>SOMMAIRE</h1>
+        <hr>
+        <p id="a2"><a class="a" href="#in">INTRODUCTION</a></p>
+        <P class="b2"><a class="b" href="#li1">I-LA DIVINITEÉ DU SEIGNEUR SELON L'ANCIEN TESTAMENT</a></P>
+        <p class="c2"><a class="c" href="#li11">1.L'ancien des jours</a></p>
+        <p class="d2"><a class="d" href="#li12">2.Le Sauveur</a></p>
+        <p class="e2"><a class="e" href="#li13">3.Le ROI</a></p>
+        <p class="f2"><a class="f" href="#li2">II-LA DIVINITEÉ DU SEIGNEUR SELON LE NOUVEAU TESTAMENT</a></p>
+        <p class="g2"><a class="g" href="#li21">1.L'omnipresence du Seigneur JESUS CHRIST</a></p>
+        <p class="h2"> <a class="h" href="#li22">2.L'omniscience du Seigneur JESUS CHRIST</a></p>
+        <p class="i2"> <a class="i" href="#li23">3.Le caractere ETERNEL du CHRIST</a></p>
+    
+        <h1 id="h11">LA DIVINITEÉ DE JESUS CHRIST</h1>
+        <h2 id="in">INTRODUCTION</h2>
+    <div id="div0">    
+        <P>Plusieurs contradicteurs qui ne font que suivre leurs passions,tentent de reduire le seigneur JESUS CHRIST au niveau de simple
+        prophete et messagé.Ceux qui ont de telles penseés ne sont pas forcement dans l'erreur,mais il leurs manques quelquechose,L'ESPRIT SAINT.</p>
+        Si tu est dans ce cas de fiqure que tu soit Muslim,animistes,soit disant Chretient mais qui ne l'est pas,sorcier,satanistes...etc
+        Ecoute les Ecritures parler.</p>
+        </div>
+        <hr>
+        <ol type="I">
+            <li id="li1">LA DIVINITEÉ DU SEIGNEUR SELON L'ANCIEN TESTAMENT</li>
+            <ol type="1">
+                <li id="li11">L'ancien des jours</li>
+            <div id="div1">    
+                <p>Dans <a class="class1" href="https://saintebible.com/daniel/7-9.htm">le livre de Daniel 7 verset 9</a> le Seigneur DIEU est appelé l'ancien des jours,pour les profanes cela ferait allusion à un vieux
+                à la barbes blanche et se tenant debout avec sa cane,ce qui represente un virage de 360° de la vérite.L'ancien des jours c'est
+                le createur de l'univers,celui qui a vu chaque seconde s'ecouler depuis la creation car  c'est lui l'auteur,c'est celui dont 
+                l'origine remonte aux jours de l'eternite.On retient là que celui dont l'origine remonte aux jours de l'eternité n'est rien d'autre que l'ancien des jours,le DIEU tout 
+                puissant.Allons maintenant dans <a href="https://www.biblegateway.com/passage/?search=Mich%C3%A9e%205%3A2&version=LSG">Micheé 5 le verset 2</a>,il est affirmer que celui qui dominera sur Israel sortira de 
+                Bethelem et que <strong>son origine remonte aux jours de l'eternité,aux temps anciens</strong>.Cette prophetie s'accomplie en <a href="https://www.biblegateway.com/passage/?search=Matthew%202&version=LSG">Matthieu 2 verset 2,5-6</a>avec la venue du Seigneur JESUS CHRIST.Donc c'est lui
+                l'Ancien des jours le père de la creation.</p>
+            </div>
+                <hr>
+                <li id="li12">Le Sauveur</li>
+            <div id="div2">    
+                <p>Le titre de sauveur peut etre atribué à tout un chacun de nous,mais quant on parle de sauveur au sens propre,nous faison reference 
+                sauveur de l'humanité(le salut de l'ame).Ainsi nous nous accordont sur le fait que le seul sauveur c'est DIEU.Ainsi la parole du Seigneur
+                le declare si bien dans <a href="https://www.biblegateway.com/passage/?search=%C3%89sa%C3%AFe%2043&version=LSG">Ésai  43 verset 3 et 11.</a>
+                dans Ésai 43 verset 11 L'ETERNEL l'affirme sans detour <strong>[c'est moi,moi qui suis L'ETERNEL ,et hors moi il n'y a point de sauveur]</strong>.On retient que
+                c'est DIEU seul le sauveur,et en jetant un regard au nouveau testament dans <a href="https://www.biblegateway.com/passage/?search=Tite%203&version=LSG">Tite 3 verset 6</a> et <a href="https://www.biblegateway.com/passage/?search=Luc%202&version=LSG">Luc 2 verset 10-11</a>
+                etc.. .Il est donc claire que le seul Sauveur que nous avont c'est JESUS CHRIST le Seigneur le SAINT D'israel. </p>
+            </div>    
+                <hr>
+                <li id="li13">le ROI</li>
+            <div id="div3">    
+                <p>Lorsqu'on parle de ROI d'israel nous faisont allusion à L'ETERNEL,le ROI de tous les rois de la terre,il le dit LUI meme sans 
+                    ambiguité dans <a href="https://www.biblestudytools.com/ost/esaie/passage/?q=esaie+43:15-19">Esai 43 verset 15</a>[Moi, l'Éternel, je suis votre Saint, le Créateur d'Israël, votre roi]
+                    Notons que celui qui est le Roi d'israel c'est DIEU.Alors voyant lorsque JESUS CHRIST fut amené devant pilate pour etre jugé,de quoi on l'accusait.
+                    Dans <a href="https://saintebible.com/john/19-3.htm">Jean 19 verset 3</a> JESUS fut foueté par les soldats pour s'etre proclamer Roi des juifs dans <a href="https://saintebible.com/john/18-33.htm">Jean 18 verset 33-37</a>,apres que <a href="https://fr.wikipedia.org/wiki/Ponce_Pilate">Ponce Pilate</a> l'est poser la question s'il etait 
+                    le Roi des Juifs et JESUS lui repons [tu l'a dit].En conclusion l'une des grande cause de la crucifixion de JESUS fut d'avoir affirmer etre <em>LE ROI DES JUIFS</em>,sachant bien que le 
+                    ROI d'Israel c'est le SEIGNEUR DIEU.</p>
+            </div>        
+            </ol>
+<li id="li2">LA DIVINITEÉ DU SEIGNEUR SELON LE NOUVEAU TESTAMENT</li>
+<ol type="1">
+    <li id="li21">L'omnipresence du Seigneur JESUS CHRIST</li>
+<div id="div4">
+    <p>L'omnipresence n'est attribueé qu'a DIEU tout au long des six millelaires de l'humanité,tout homme aussi grand soit-il le possede ce titre.Mais en jeton un regard retrospectif au nouveau testament nous remarquons que dans <a href="https://saintebible.com/john/3-13.htm">Jean 3 le verset 13</a>. 
+    Dans ce verset JESUS nous l'affirme sans detour que Lui,il se trouve sur la terre en meme temps au ciel.Petite parenthese lorsque JESUS affirme que personne n'est monté au ciel si ce n'est lui,celui qui en est descendu faisant reference à Lui meme qui est Le Fils de l'homme fait-il une erreur
+    sachant que Elie et Enoch en sont montés(au ciel).la reponse est OUI pour les egarés,mais pour les AIGLES c'est une confirmation de la DIVINITEÉ du Seigneur,pour penser comme nous les AIGLES pose toi la question suivante de quel ciel JESUS est descendu et monté? et auquel 
+    est monté Elie et Enoch? comme DIEU la si bien fait au commencent dans <a href="https://saintebible.com/genesis/1-1.htm">Genese 1 verset 1</a>en creant les Cieux et la terre et non le Ciel,mais les cieux donc le Ciel auquel est monte Elie et Enoch n'est pas le meme que celui de JESUS sachant que les Cieux ne sont pas une matiere mais des dimensions 
+    qu'on appele les <em>dimensions superieurs</em>,finalement on retient que JESUS viens de la dimention la plus superieur à laquel aucun homme n'a acces.Revenons à notre theme,ainsi JESUS proclamme son omnipresence en affirmant sa presence au Ciel et instantanement sur la terre.Mais quant il affirme cela nombreux sont ceux qui doutes encore 
+    alors apres sa resurection il passe à l'acta en apparaissant dans <a href="https://saintebible.com/1_corinthians/15-6.htm"> 1 corinthiens 15 verset 6</a> à plus de cinq cent frères <strong>à la fois</strong>,maintenant parmis les diciples tout ceux qui doutaient de son Omnipresence furent convaincus,et vous aussi vous devez l'etre.</p>
+</div>
+<hr>
+    <li id="li22">L'omniscience du seigneur JESUS CHRIST</li>
+    <p>Certains me diront que JESUS n'est pas omniscient car il affirme dans <a href="https://saintebible.com/matthew/24-36.htm">Matthieu 24 verset 36</a> que la connaissance de l'heure n'est connu que du père.Cela parrait beau pour <em>les chacals du desert</em>(les diffamateurs),cependant cela confirme encore l'omniscience du Seigneur,pourquoi?:parceque dans <a href="https://saintebible.com/john/14-7.htm">Jean 14 verset 7-11</a> la question fut poseé au Seigneur de 
+savoir qui est le Père en question et sa reponse fut sans detour indiquant que le Père n'est pas different de Lui.Donc la connaissance de l'heure de la fin réleve de lui seul.Maintenant quelque soit le theme que nous abordons notre reference,la BIBLE le confirme toujours noir sur blanc.C'est pourquoi dans le meme livre de <a href="https://www.biblegateway.com/passage/?search=Jean%2016%3A30&version=LSG"> Jean chapitre 16 le verset 30</a> à cause de ses(JESUS) paroles les douze Diciples 
+l'affirme avec certitude:<strong>[Maintenant nous savons que tu SAIS toute choses....]</strong>,sans debat et limpide comme de l'eau de roche.
+Finalement si JESUS sais toute chose c'est-à-dire omniscient,je vous laisse reconnaitre qui il est.</p>
+<hr>
+    <li id="li23">Le carctere ETERNEL du CHRIST</li>
+    <p>Nous commençons ce paragraphe avec l'evidence que DIEU est ETERNEL.DIEU est donc ETERNEL et non imortel,pourquoi?Parceque etre éternel et etre imortel est totalement different malgré qu'ils soient des synonymes.En effet Eternel veux dire celui qui n'a ni debut ni fin par contre l'imortel c'est celui qui est neé une fois et ne mourra jamais.Alors L'ÉTERNEL c'est L'ANCIEN DES JOURS,celui qui est à l'origine meme du temps comme il est dit dans <a href="https://www.bible.com/fr/bible/152/ISA.45.5-7.S21">Esai 45 verset 5-7</a>
+     <strong>[Je suis L'Eternel,et il n'y en a point d'autre....]</strong>.Ainsi on retient que L'ETERNEL est unique.Voyons dans <a href="https://www.bible.com/fr/search/bible?query=Jean%2012%20verset%2034">Jean 12 verset 34</a>,où il est reconu que le CHRIST(JESUS) demeure Éternellement,sachant bien qu'il n'y a pas deux ÉTERNELS mais un seul comme le dit si bien dans <a href="https://www.bible.com/fr/bible/152/ISA.45.5-7.S21">Esai 45 verset 5-7</a>.Alors s'il n'y a qu'un ÉTERNEL et que DIEU et le CHRIST sont tout deux Éternels,celui qui possede 10% d'intelligence ne ferait que reconnaitre que le Christ et Dieu ne 
+    font qu'une seule entité.ET meme apres sa resurection JESUS apparait à Jean dans <a href="https://www.bible.com/fr/search/bible?query=Apocalypse%201%20verset%2017-18">Apocalypse 1 verset 17-18</a> en le confirmant qu'IL vit aux siècles des siècles et qu'IL tiens <em>les clefs de la mort et du séjour des morts</em>.</p>
+</ol>
+
+        </ol>
+    </body>
+</html>
